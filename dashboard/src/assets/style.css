@@ -1,0 +1,40 @@
+body {
+  background: #f5f7f9;
+  overflow: hidden;
+}
+.main-head {
+  font-weight: bold;
+  color: #464c5b;
+  font-size: 20px;
+}
+.text {
+  color: #464c5b;
+  font-size: 16px!important;
+}
+.sub-head {
+  font-weight: bold;
+  color: #464c5b;
+  font-size: 18px;
+}
+.small-head {
+  font-weight: bold;
+  color: #464c5b;
+  font-size: 14px;
+}
+.help {
+  color: #9ea7b4;
+  font-size: 14px;
+}
+.disabled {
+  color: #c3cbd6;
+  font-size: 14px;
+}
+.link {
+  color: #3399ff;
+  font-size: 14px;
+}
+
+.ivu-table-cell {
+  padding-left: 9px;
+  padding-right: 9px;
+}

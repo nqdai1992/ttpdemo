@@ -1,0 +1,30 @@
+body {
+  font-family: Candara, Helvetica, sans-serif;
+  background-color: #f5f5f5;
+  font-size: 15px;
+}
+.card-heading {
+  background-repeat: repeat-x;
+  padding: 0 20px;
+  position: relative;
+  border-bottom: 1px solid #f5f5f5;
+}
+.card-heading::before, .card-heading-title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 4px;
+}
+.card-heading-title {
+  letter-spacing: 1px;
+  position: relative;
+  margin-bottom: 0;
+  line-height: 41px;
+  display: inline-block;
+}
+.card-heading-title::before {
+  background: #fff;
+}
